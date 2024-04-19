@@ -36,9 +36,9 @@
     width: 12rem;
     border: none;
     color: #020617;
-    background-color: #fff;
-    border-radius: 0 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
     font-weight: 500;
+    background-color: #d9d9d9;
     padding: 8px;
     cursor: pointer;
     transition: background-color .3s ease;
@@ -49,12 +49,26 @@
     border: none;
     color: #020617;
     background-color: unset;
-    border-radius: 0 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
     font-weight: 500;
     padding: 8px;
     cursor: pointer;
     transition: background-color .3s ease;
 }
+
+.btn-editor, .btn-preview {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-editor:hover, .btn-preview:hover {
+    transform: translateY(-2px);
+}
+
+.active {
+    background-color: #fff;
+    transform: translateY(-2px);
+  }
+
 .content{
     width: 100%;
     height: 80vh;
@@ -67,3 +81,5 @@
     right: 2rem;
     bottom: 5rem;
 }
+
+

@@ -7,15 +7,25 @@ import "./main-layout.css";
 const MainLayout = () => {
   const [tab, setTab] = useState("editor");
 
+  const handleTabClick = (selectedTab) => {
+    setTab(selectedTab);
+  };
+
   return (
     <main className="mainLayout">
       <h4 className="title-page">Adicionar comentário</h4>
       <div className="page">
         <div className="tabs">
-          <button onClick={() => setTab("editor")} className="btn-editor">
+          <button
+            onClick={() => handleTabClick("editor")}
+            className={`btn-editor ${tab === "editor" ? "active" : ""}`}
+          >
             Escrever
           </button>
-          <button onClick={() => setTab("preview")} className="btn-preview">
+          <button
+            onClick={() => handleTabClick("preview")}
+            className={`btn-preview ${tab === "preview" ? "active" : ""}`}
+          >
             Pré-visualizar
           </button>
         </div>
@@ -25,11 +35,10 @@ const MainLayout = () => {
         </div>
       </div>
       <div className="download-btn">
-      <DownloadFile/>
+        <DownloadFile />
       </div>
     </main>
   );
 };
 
 export default MainLayout;
-
