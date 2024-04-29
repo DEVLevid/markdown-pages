@@ -6,7 +6,7 @@
 
 ## Como Utilizar
 
-Você pode simplesmente navegar pela página e escrever utilizando markdown recebendo um preview em tempo real. Além disso, você pode clonar este repositório para sua máquina local e visualizar as páginas Markdown em seu editor de código preferido.
+Você pode simplesmente navegar pela página e escrever utilizando markdown recebendo um preview em tempo real com o resultado do seu markdown já renderizado. Além disso, você pode clonar este repositório para sua máquina local e visualizar as páginas Markdown em seu editor de código preferido.
 
 ## Contato
 
