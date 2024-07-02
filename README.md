@@ -11,4 +11,3 @@ Você pode simplesmente navegar pela página e escrever utilizando markdown rece
 ## Contato
 
 Se tiver alguma dúvida, sugestão ou problema relacionado a este repositório, sinta-se à vontade para abrir uma issue ou entrar em contato com DEVLevid pelas redes sociais a cima.
-
